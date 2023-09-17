@@ -1,0 +1,162 @@
+@import 'https://fonts.googleapis.com/css?family=Nova+Mono|Eczar';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+#clock {
+    font-family: 'Nova Mono', monospace;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.bg {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    background: inherit;
+    border-radius: 50%;
+    box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 1), inset 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+  font-size: 3rem !important;
+}
+
+.hidden {
+  display: none;
+}
+
+img{
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+#city{
+  font-weight: 600;
+}
+
+#weather {
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 30px; 
+}
+.login-box::placeholder{
+  color: white;
+  text-align: center;
+}
+#login-form {
+  text-align: center;
+  width: 30%;
+}
+
+.login-box {
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin: 30px 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login {
+  display: inline; 
+  vertical-align: middle; 
+  height: 40px;
+  background: #007efc;
+  border: 1px solid #007efc;
+  color: #fff;
+  padding: 0 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.login:hover {
+  background:#5badff;
+  border: 1px solid #5badff;
+}
+
+#quote{
+  text-align: center;
+  width: 75%;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+}
+
+#todo-form{
+  text-align: center;
+}
+
+.cardBg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  word-wrap: break-word;
+  background-color: #ffffff83;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+
+#todo::placeholder {
+  color: rgba(76, 51, 203, 0.81);
+}
+
+.list-group-item {
+  display: flex !important;
+}
+
+li button{
+  margin-left: auto;
+  border-radius: 3px;
+  border-color: #0180ff;
+  background-color: #d7d7d7;
+  padding: 0.25rem 0.8rem;
+}
+
+li button:hover {
+  background-color: #0180ff;
+}
+
+#quote{
+  font-size: 1.2rem;
+  background-color: rgba(24, 23, 22, 0.441);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
